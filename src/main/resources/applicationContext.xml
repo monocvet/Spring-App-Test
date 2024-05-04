@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="idOfBeanOfTeacher"
+          class="ru.maxima.Person">
+        <constructor-arg value="Vitaliy"/>
+        <constructor-arg value="32"/>
+    </bean>
+
+    <bean id="idOfRadioMaximum"
+          class="ru.maxima.RadioMaximum">
+        <constructor-arg value="Red Hot Chili Peppers - Californication"/>
+        <constructor-arg value="Aerosmith - Dude (Looks Like A Lady)"/>
+        <constructor-arg value="Bon Jovi - It's My Life"/>
+    </bean>
+
+
+    <bean id="idOfRadioEnergy"
+          class="ru.maxima.RadioEnergy">
+        <constructor-arg value="Avicii - Levels"/>
+        <constructor-arg value="The future X - This kind of love"/>
+        <constructor-arg value="Aurora - Cure for me"/>
+    </bean>
+
+    <bean id="idOfRadioEuropaPlus"
+          class="ru.maxima.RadioEuropaPlus">
+        <constructor-arg value="Eric Prydz - Call On Me"/>
+        <constructor-arg value="Underwater - Mackenzie Arromba"/>
+        <constructor-arg value="Barbara Streisand - Duck Sauce"/>
+    </bean>
+
+
+</beans>
