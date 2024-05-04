@@ -12,9 +12,12 @@ public class Main {
         RadioPlayer player = new RadioPlayer(radio);
         player.playRadio();
 
+
         radio = context.getBean("idOfRadioEnergy", RadioEnergy.class);
         player = new RadioPlayer(radio);
         player.playRadio();
+
+
 
         radio = context.getBean("idOfRadioEuropaPlus", RadioEuropaPlus.class);
         player = new RadioPlayer(radio);
