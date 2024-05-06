@@ -4,6 +4,7 @@ interface Radio {
     String getCurrentSong();
 }
 
+
 class RadioMaximum implements Radio {
     private String song1;
     private String song2;

@@ -13,13 +13,13 @@
         <constructor-arg value="32"/>
     </bean>
 
+
     <bean id="idOfRadioMaximum"
           class="ru.maxima.RadioMaximum">
         <constructor-arg value="Red Hot Chili Peppers - Californication"/>
         <constructor-arg value="Aerosmith - Dude (Looks Like A Lady)"/>
         <constructor-arg value="Bon Jovi - It's My Life"/>
     </bean>
-
 
     <bean id="idOfRadioEnergy"
           class="ru.maxima.RadioEnergy">
