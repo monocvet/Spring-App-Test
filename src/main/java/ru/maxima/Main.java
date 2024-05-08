@@ -8,19 +8,8 @@ public class Main {
                 new ClassPathXmlApplicationContext(
                         "applicationcontext.xml"
                 );
-        Radio radio = context.getBean("idOfRadioMaximum", RadioMaximum.class);
-        RadioPlayer player = new RadioPlayer(radio);
-        player.playRadio();
+        RadioPlayer radioPlayer = context.getBean("radioPlayer", RadioPlayer.class);
+        radioPlayer.playRadio();
 
-
-        radio = context.getBean("idOfRadioEnergy", RadioEnergy.class);
-        player = new RadioPlayer(radio);
-        player.playRadio();
-
-
-
-        radio = context.getBean("idOfRadioEuropaPlus", RadioEuropaPlus.class);
-        player = new RadioPlayer(radio);
-        player.playRadio();
     }
 }
